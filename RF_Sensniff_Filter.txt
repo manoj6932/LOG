@@ -1,1 +1,0 @@
-ipv6.addr eq 2409::212:4b00:17bc:c65f or ipv6.addr eq fe80::212:4b00:17bc:c65f or ipv6.addr eq 2409::212:4b00:17bc:c633 or ipv6.addr eq fe80::212:4b00:17bc:c633 or ipv6.addr eq 2409::1 or ipv6.addr eq ff02::1
