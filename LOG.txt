@@ -2943,3 +2943,63 @@ LDR Data Flash Error<CR><LF>
 [INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 183, status 0, tx 0, coll 0<LF>
 [INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 183, status 0, tx 1, coll 0<LF>
 [DBG : CSMA      ] free_queued_packet, queue length 0, free packets 10<LF>
+
+08-04-2019 10:58:06.422 [RX] - [DBG : IPv6      ] In udp_send<LF>
+[DBG : IPv6      ] Upper layer checksum len: 56 from: 40<LF>
+[INFO: IPv6      ] Sending packet with length 96 (56)<LF>
+[INFO: TCP/IP    ] output: processing 96 bytes packet from :: to 2409::1<LF>
+[ERR : TCP/IP    ] output: destination off-link and no default route<LF>
+
+08-04-2019 10:58:10.863 [RX] - [INFO: RPL       ] sending a DIS to ff02::1a<LF>
+[DBG : IPv6      ] Upper layer checksum len: 6 from: 40<LF>
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2<LF>
+[INFO: TCP/IP    ] output: sending to (NULL LL addr)<LF>
+[INFO: 6LoWPAN   ] output: sending IPv6 packet with len 46<LF>
+[DBG : 6LoWPAN   ] compression: before (6): 6000000000063a40fe8000000000000002124b0013a4889bff02000000000000000000000000001a9b007dcf0000<LF>
+[DBG : 6LoWPAN   ] compression: first header: 58<LF>
+[DBG : 6LoWPAN   ] compression: last header could is not compressed: 58<LF>
+[DBG : 6LoWPAN   ] compression: after (4): 7a3b3a1a<LF>
+[INFO: 6LoWPAN   ] output: header len 40 -> 4, total len 46 -> 10, MAC max payload 110, frag_needed 0<LF>
+[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 10, seqno 184, queue length 1, free packets 9<LF>
+[DBG : CSMA      ] scheduling transmission in 6 ticks, NB=0, BE=3<LF>
+[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 184, tx 0, queue 1<LF>
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 10 (25)<LF>
+[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 184, status 0, tx 0, coll 0<LF>
+[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 184, status 0, tx 1, coll 0<LF>
+[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 10<LF>
+
+08-04-2019 11:00:09.553 [RX] - [INFO: RPL       ] sending a DIS to ff02::1a<LF>
+[DBG : IPv6      ] Upper layer checksum len: 6 from: 40<LF>
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2<LF>
+[INFO: TCP/IP    ] output: sending to (NULL LL addr)<LF>
+[INFO: 6LoWPAN   ] output: sending IPv6 packet with len 46<LF>
+[DBG : 6LoWPAN   ] compression: before (6): 6000000000063a40fe8000000000000002124b0013a4889bff02000000000000000000000000001a9b007dcf0000<LF>
+[DBG : 6LoWPAN   ] compression: first header: 58<LF>
+[DBG : 6LoWPAN   ] compression: last header could is not compressed: 58<LF>
+[DBG : 6LoWPAN   ] compression: after (4): 7a3b3a1a<LF>
+[INFO: 6LoWPAN   ] output: header len 40 -> 4, total len 46 -> 10, MAC max payload 110, frag_needed 0<LF>
+[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 10, seqno 185, queue length 1, free packets 9<LF>
+[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3<LF>
+[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 185, tx 0, queue 1<LF>
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 10 (25)<LF>
+[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 185, status 0, tx 0, coll 0<LF>
+[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 185, status 0, tx 1, coll 0<LF>
+[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 10<LF>
+
+08-04-2019 11:01:55.034 [RX] - [INFO: RPL       ] sending a DIS to ff02::1a<LF>
+[DBG : IPv6      ] Upper layer checksum len: 6 from: 40<LF>
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2<LF>
+[INFO: TCP/IP    ] output: sending to (NULL LL addr)<LF>
+[INFO: 6LoWPAN   ] output: sending IPv6 packet with len 46<LF>
+[DBG : 6LoWPAN   ] compression: before (6): 6000000000063a40fe8000000000000002124b0013a4889bff02000000000000000000000000001a9b007dcf0000<LF>
+[DBG : 6LoWPAN   ] compression: first header: 58<LF>
+[DBG : 6LoWPAN   ] compression: last header could is not compressed: 58<LF>
+[DBG : 6LoWPAN   ] compression: after (4): 7a3b3a1a<LF>
+[INFO: 6LoWPAN   ] output: header len 40 -> 4, total len 46 -> 10, MAC max payload 110, frag_needed 0<LF>
+[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 10, seqno 186, queue length 1, free packets 9<LF>
+[DBG : CSMA      ] scheduling transmission in 1 ticks, NB=0, BE=3<LF>
+[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 186, tx 0, queue 1<LF>
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 10 (25)<LF>
+[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 186, status 0, tx 0, coll 0<LF>
+[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 186, status 0, tx 1, coll 0<LF>
+[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 10<LF>
