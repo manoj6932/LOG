@@ -29,13 +29,7 @@
 #define RPL_CONF_DEFAULT_LIFETIME                          30
 #define RPL_CONF_DEFAULT_LIFETIME_UNIT                     120
 #define RPL_CONF_DAO_RETRANSMISSION_TIMEOUT                (10 * CLOCK_SECOND)
-#define APP_RPL_CONF_DIS_INTERVAL						   30
-#define RPL_DIS_INTERVAL_RANDOM_ONE                        (random_rand() % (APP_RPL_CONF_DIS_INTERVAL))
-#define RPL_DIS_INTERVAL_RANDOM_TWO                        (random_rand() % (APP_RPL_CONF_DIS_INTERVAL))
-#define RPL_DIS_INTERVAL_RANDOM_THREE                      (random_rand() % (APP_RPL_CONF_DIS_INTERVAL))
-#define RPL_DIS_INTERVAL_RANDOM_FOUR                       (random_rand() % (APP_RPL_CONF_DIS_INTERVAL))
-#define RPL_DIS_INTERVAL_RANDOM                            RPL_DIS_INTERVAL_RANDOM_ONE + RPL_DIS_INTERVAL_RANDOM_TWO + RPL_DIS_INTERVAL_RANDOM_THREE + RPL_DIS_INTERVAL_RANDOM_FOUR
-#define RPL_CONF_DIS_INTERVAL                              ((APP_RPL_CONF_DIS_INTERVAL + RPL_DIS_INTERVAL_RANDOM) * CLOCK_SECOND)
+#define RPL_CONF_DIS_INTERVAL                              (60 * CLOCK_SECOND)
 
 /* >>>>>>>>>>>>>>>>>>>>>>>> RPL Node Rank <<<<<<<<<<<<<<<<<<<<<<<<<< */
 #define RPL_CONF_MAX_RANKINC                               (16 * RPL_MIN_HOPRANKINC)
