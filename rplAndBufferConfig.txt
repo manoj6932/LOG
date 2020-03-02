@@ -1,0 +1,42 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RF PARAMS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#define DOT_15_4G_CONF_FREQUENCY_BAND_ID                   DOT_15_4G_FREQUENCY_BAND_CUSTOM
+#define DOT_15_4G_CHANNEL_MAX                              15
+#define DOT_15_4G_CHANNEL_SPACING                          100
+#define DOT_15_4G_CHAN0_FREQUENCY               		   865000
+#define RF_CORE_CONF_CHANNEL                               6
+#define IEEE802154_CONF_DEFAULT_CHANNEL                    RF_CORE_CONF_CHANNEL
+#define PROP_MODE_CONF_LO_DIVIDER                          0x05
+#define IEEE802154_CONF_PANID                              0xABCD
+#define CCFG_FORCE_VDDR_HH                                 0
+#define IEEE802154_CONF_TXPOWER                            12.5
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Packet Buffer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#define PROP_MODE_CONF_RX_BUF_CNT                          12
+#define QUEUEBUF_CONF_NUM                                  12
+//#define CSMA_CONF_MIN_BE                                   5
+//#define CSMA_CONF_MAX_BE                                   8
+//#define CSMA_CONF_MAX_NEIGHBOR_QUEUES                      4
+#define NETSTACK_MAX_ROUTE_ENTRIES                         0
+#define NBR_TABLE_CONF_MAX_NEIGHBORS                       10
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> 6LOWPAN Communication Time <<<<<<<<<<<<<<<<<<<<<<<<<< */
+#define UIP_CONF_WAIT_TIMEOUT                              240
+#define RPL_CONF_DIO_INTERVAL_MIN                          12
+#define RPL_CONF_DIO_INTERVAL_DOUBLINGS                    11
+#define RPL_CONF_PROBING_INTERVAL                          1800 * CLOCK_SECOND
+#define RPL_CONF_DAG_LIFETIME                              (24*60)
+#define RPL_CONF_DAO_MAX_RETRANSMISSIONS                   10
+#define RPL_CONF_DEFAULT_LIFETIME                          30
+#define RPL_CONF_DEFAULT_LIFETIME_UNIT                     120
+#define RPL_CONF_DAO_RETRANSMISSION_TIMEOUT                (10 * CLOCK_SECOND)
+#define APP_RPL_CONF_DIS_INTERVAL						   30
+#define RPL_DIS_INTERVAL_RANDOM_ONE                        (random_rand() % (APP_RPL_CONF_DIS_INTERVAL))
+#define RPL_DIS_INTERVAL_RANDOM_TWO                        (random_rand() % (APP_RPL_CONF_DIS_INTERVAL))
+#define RPL_DIS_INTERVAL_RANDOM_THREE                      (random_rand() % (APP_RPL_CONF_DIS_INTERVAL))
+#define RPL_DIS_INTERVAL_RANDOM_FOUR                       (random_rand() % (APP_RPL_CONF_DIS_INTERVAL))
+#define RPL_DIS_INTERVAL_RANDOM                            RPL_DIS_INTERVAL_RANDOM_ONE + RPL_DIS_INTERVAL_RANDOM_TWO + RPL_DIS_INTERVAL_RANDOM_THREE + RPL_DIS_INTERVAL_RANDOM_FOUR
+#define RPL_CONF_DIS_INTERVAL                              ((APP_RPL_CONF_DIS_INTERVAL + RPL_DIS_INTERVAL_RANDOM) * CLOCK_SECOND)
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> RPL Node Rank <<<<<<<<<<<<<<<<<<<<<<<<<< */
+#define RPL_CONF_MAX_RANKINC                               (16 * RPL_MIN_HOPRANKINC)
+#define RPL_CONF_SIGNIFICANT_CHANGE_THRESHOLD              (10 * RPL_MIN_HOPRANKINC)
