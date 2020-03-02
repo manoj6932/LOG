@@ -1,642 +1,340 @@
-02-03-2020 13:42:15.512 [RX] - [INFO: RPL       ] initializing<LF>
 
-02-03-2020 13:42:47.290 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:59a9, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-[INFO: RPL       ] adding global IP address 2409::212:4b00:13a4:a226<LF>
-[INFO: RPL       ] reset MRHOF<LF>
-[INFO: RPL       ] initialized DAG with instance ID 0, DAG ID 2409::212:4b00:10d2:3165, prexix 2409::/64, rank 65535<LF>
-[WARN: RPL       ] just joined, no parent yet, setting timer for leaving<LF>
-[INFO: RPL       ] refreshing lifetime<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] probing fe80::212:4b00:1bd1:59a9 (urgent) last tx 0 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.59a9, status 0, tx 1, new link metric 206<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:59a9<LF>
-
-02-03-2020 13:42:50.041 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:59a9 (urgent) last tx 0 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.59a9, status 0, tx 1, new link metric 186<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] probing fe80::212:4b00:1bd1:59a9 (urgent) last tx 0 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.59a9, status 0, tx 1, new link metric 171<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] probing fe80::212:4b00:1bd1:59a9 (urgent) last tx 0 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1bd1:59a9<LF>
-
-02-03-2020 13:42:51.079 [RX] - [INFO: RPL       ] packet sent to 0012.4b00.1bd1.59a9, status 0, tx 1, new link metric 166<LF>
-[INFO: RPL       ] parent switch: (NULL IP addr) -> fe80::212:4b00:1bd1:59a9<LF>
-[WARN: RPL       ] found parent: fe80::212:4b00:1bd1:59a9, staying in DAG<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: joined, MOP 1 OCP 1 rank 422 max-rank 2470, dioint 0, nbr count 1 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   166 =>   422 --  4  bafp (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:42:54.469 [RX] - [INFO: RPL       ] sending a DAO seqno 241, tx count 1, lifetime 30, prefix 2409::212:4b00:13a4:a226 to 2409::212:4b00:10d2:3165, parent fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] creating hop-by-hop option<LF>
-[DBG : RPL       ] no SRH found<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.59a9, status 0, tx 1, new link metric 162<LF>
-[INFO: RPL       ] received a DAO-ACK with seqno 241 (241 241) and status 0 from 2409::212:4b00:10d2:3165<LF>
-[INFO: RPL       ] reset DIO timer (Reachable)<LF>
-
-02-03-2020 13:42:58.700 [RX] - [INFO: RPL       ] sending a multicast-DIO with rank 418 to ff02::1a<LF>
-
-02-03-2020 13:43:04.450 [RX] - [INFO: RPL       ] sending a multicast-DIO with rank 418 to ff02::1a<LF>
-
-02-03-2020 13:43:15.504 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 14, nbr count 1 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-[INFO: RPL       ] sending a multicast-DIO with rank 418 to ff02::1a<LF>
-
-02-03-2020 13:43:17.668 [RX] - [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1bd1:5c63, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 65535<LF>
-
-02-03-2020 13:43:31.040 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c63, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 384<LF>
-
-02-03-2020 13:43:34.585 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c24, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-
-02-03-2020 13:43:53.327 [RX] - [INFO: RPL       ] sending a multicast-DIO with rank 418 to ff02::1a<LF>
-
-02-03-2020 13:44:04.731 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:64c4, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-
-02-03-2020 13:44:15.506 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 16, nbr count 4 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 1 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:44:57.240 [RX] - [INFO: RPL       ] sending a multicast-DIO with rank 418 to ff02::1a<LF>
-
-02-03-2020 13:45:00.228 [RX] - [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1bd1:67aa, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 65535<LF>
-
-02-03-2020 13:45:01.553 [RX] - [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1bd1:67aa, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 65535<LF>
-
-02-03-2020 13:45:03.159 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:59ff, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 384<LF>
-[INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1bd1:67aa, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 65535<LF>
-
-02-03-2020 13:45:15.503 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 17, nbr count 6 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 2 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67aa65535,   213 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59ff  384,   301 =>   685 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:45:32.337 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5f7b, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-
-02-03-2020 13:45:55.503 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:67b1, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-
-02-03-2020 13:46:07.503 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c16, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-
-02-03-2020 13:46:15.505 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 17, nbr count 9 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 3 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67aa65535,   213 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59ff  384,   301 =>   685 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:46:16.569 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c33, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-
-02-03-2020 13:46:17.748 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c47, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 9<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 256, worst_rank 65535 -- add to cache<LF>
-
-02-03-2020 13:46:56.676 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:64ba, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 10<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 256, worst_rank 65535 -- add to cache<LF>
-
-02-03-2020 13:47:02.640 [RX] - [INFO: RPL       ] sending a multicast-DIO with rank 418 to ff02::1a<LF>
-
-02-03-2020 13:47:15.214 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5f1b, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 409<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 10<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 409, worst_rank 65535 -- add to cache<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 18, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 4 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59ff  384,   301 =>   685 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:47:20.938 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5f1b, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 409<LF>
-
-02-03-2020 13:47:50.519 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c35, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 384<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 10<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 384, worst_rank 685 -- add to cache<LF>
-
-02-03-2020 13:48:14.757 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c4c, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 10<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 256, worst_rank 65535 -- add to cache<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 18, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 5 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c4c  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:48:49.339 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5f6b, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 384<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 10<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 384, worst_rank 65535 -- add to cache<LF>
-
-02-03-2020 13:49:08.349 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c45, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 512<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 10<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 512, worst_rank 65535 -- add to cache<LF>
-
-02-03-2020 13:49:15.499 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 18, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 6 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c45  512, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:49:31.127 [RX] - [INFO: RPL       ] sending a multicast-DIO with rank 418 to ff02::1a<LF>
-[INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1bd1:5c41, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 65535<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 9<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 65535, worst_rank 65535 -- do not add to cache<LF>
-[ERR : RPL       ] could not add neighbor to cache fe80::212:4b00:1bd1:5c41, 0012.4b00.1bd1.5c41<LF>
-[ERR : RPL       ] IPv6 cache full, dropping DIO<LF>
-
-02-03-2020 13:49:55.907 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:5c5b, instance_id 0, DAG ID 2409::212:4b00:10d2:3165, version 240, dtsn 240, rank 256<LF>
-[DBG : RPL       ] nbr-policy: free: 0, parents: 9<LF>
-[DBG : RPL       ] nbr-policy: DIO rank 256, worst_rank 65535 -- add to cache<LF>
-
-02-03-2020 13:50:15.498 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 18, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 7 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:50:42.619 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:25e2, instance_id 0, DAG ID 2409::212:4b00:1bd1:25e2, version 240, dtsn 240, rank 128<LF>
-
-02-03-2020 13:51:15.502 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 18, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 8 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:52:15.501 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  bafp (last tx 9 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:53:15.499 [RX] - [INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   162 =>   418 --  5  ba p (last tx 10 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   176 =>   432 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:53:18.235 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:59a9 (urgent) last tx 10 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 418 to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.59a9, status 2, tx 8, new link metric 401<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:5c24<LF>
-
-02-03-2020 13:53:22.266 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:5c24 (urgent) last tx 11 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 657 to fe80::212:4b00:1bd1:5c24<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5c24, status 2, tx 8, new link metric 414<LF>
-
-02-03-2020 13:54:15.498 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 -- 13  bafp (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  8   af  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:55:15.492 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 -- 13  bafp (last tx 1 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 1 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  8   af  (last tx 1 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 1 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 1 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 1 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 1 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 1 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 1 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:56:15.490 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 -- 13  bafp (last tx 2 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 2 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  8   af  (last tx 2 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 2 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 2 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 2 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 2 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 2 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 2 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:57:15.490 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 -- 13  bafp (last tx 3 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 3 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  8   af  (last tx 3 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 3 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 3 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 3 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 3 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 3 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 3 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:58:03.975 [RX] - [INFO: RPL       ] sending a multicast-DIO with rank 657 to ff02::1a<LF>
-
-02-03-2020 13:58:15.487 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6  bafp (last tx 4 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 4 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   af  (last tx 4 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 4 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 4 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 4 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 4 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 4 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 4 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 13:59:15.491 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6  bafp (last tx 5 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 5 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   af  (last tx 5 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 5 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 5 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 5 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 5 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 5 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 5 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:00:15.490 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 19, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6  bafp (last tx 6 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 6 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   af  (last tx 6 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 6 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 6 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 6 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 6 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 6 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 6 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:01:15.484 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 20, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6  bafp (last tx 7 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 7 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   af  (last tx 7 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 7 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 7 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 7 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 7 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 7 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 7 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:02:15.485 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 20, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6  bafp (last tx 8 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 8 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   af  (last tx 8 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 8 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 8 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 8 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 8 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 8 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 8 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:03:15.482 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 20, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6  bafp (last tx 9 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 9 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   af  (last tx 9 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx, better since 9 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx, better since 9 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx, better since 9 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 9 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0   a   (no tx, better since 9 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 9 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:15.484 [RX] - [INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:5c33<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:59a9 -> fe80::212:4b00:1bd1:5c33<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6   a   (last tx 10 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   a   (last tx 10 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0  ba p (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 2466, dioint 20, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6   a   (last tx 10 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   a   (last tx 10 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   243 =>   499 --  0  ba p (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:16.932 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:5c33 (urgent) last tx 22 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 499 to fe80::212:4b00:1bd1:5c33<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5c33, status 2, tx 8, new link metric 474<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:64c4<LF>
-[INFO: RPL       ] sending a DAO seqno 242, tx count 1, lifetime 30, prefix 2409::212:4b00:13a4:a226 to 2409::212:4b00:10d2:3165, parent fe80::212:4b00:1bd1:5c33<LF>
-[INFO: RPL       ] creating hop-by-hop option<LF>
-[DBG : RPL       ] no SRH found<LF>
-
-02-03-2020 14:04:18.221 [RX] - [INFO: RPL       ] packet sent to 0012.4b00.1bd1.5c33, status 2, tx 8, new link metric 682<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:5c33 -> fe80::212:4b00:1bd1:64c4<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6   a   (last tx 10 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   a   (last tx 10 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   243 =>   499 --  0  ba p (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   269 =>   525 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:20.601 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:64c4 (urgent) last tx 22 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 499 to fe80::212:4b00:1bd1:64c4<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.64c4, status 2, tx 8, new link metric 474<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:5f7b<LF>
-[INFO: RPL       ] probing fe80::212:4b00:1bd1:5f7b (urgent) last tx 22 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 730 to fe80::212:4b00:1bd1:5f7b<LF>
-
-02-03-2020 14:04:21.768 [RX] - [INFO: RPL       ] packet sent to 0012.4b00.1bd1.5f7b, status 2, tx 8, new link metric 498<LF>
-
-02-03-2020 14:04:23.482 [RX] - [INFO: RPL       ] sending a DAO seqno 243, tx count 1, lifetime 30, prefix 2409::212:4b00:13a4:a226 to 2409::212:4b00:10d2:3165, parent fe80::212:4b00:1bd1:64c4<LF>
-[INFO: RPL       ] creating hop-by-hop option<LF>
-[DBG : RPL       ] no SRH found<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.64c4, status 2, tx 8, new link metric 682<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:67b1<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:64c4 -> fe80::212:4b00:1bd1:5f7b<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 754 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6   a   (last tx 11 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   a   (last tx 11 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   498 =>   754 --  8   afp (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   284 =>   540 --  0  ba   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:27.472 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:67b1 (urgent) last tx 22 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 754 to fe80::212:4b00:1bd1:67b1<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.67b1, status 2, tx 8, new link metric 511<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:5c16<LF>
-[INFO: RPL       ] sending a DAO seqno 244, tx count 1, lifetime 30, prefix 2409::212:4b00:13a4:a226 to 2409::212:4b00:10d2:3165, parent fe80::212:4b00:1bd1:5f7b<LF>
-[INFO: RPL       ] creating hop-by-hop option<LF>
-[DBG : RPL       ] no SRH found<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5f7b, status 2, tx 8, new link metric 704<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:5f7b -> fe80::212:4b00:1bd1:67b1<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 767 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6   a   (last tx 11 min ago, bet
-02-03-2020 14:04:28.472 [RX] - ter since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   a   (last tx 11 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   704 =>   960 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   511 =>   767 --  8   afp (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   301 =>   557 --  0  ba   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0   a   (no tx, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:31.731 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:5c16 (urgent) last tx 22 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 767 to fe80::212:4b00:1bd1:5c16<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5c16, status 2, tx 8, new link metric 526<LF>
-
-02-03-2020 14:04:33.192 [RX] - [INFO: RPL       ] sending a DAO seqno 245, tx count 1, lifetime 30, prefix 2409::212:4b00:13a4:a226 to 2409::212:4b00:10d2:3165, parent fe80::212:4b00:1bd1:67b1<LF>
-[INFO: RPL       ] creating hop-by-hop option<LF>
-[DBG : RPL       ] no SRH found<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.67b1, status 2, tx 8, new link metric 715<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:5f1b<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:67b1 -> fe80::212:4b00:1bd1:5f1b<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 591 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6   a   (last tx 11 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0   a   (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   a   (last tx 11 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   704 =>   960 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   715 =>   971 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   526 =>   782 --  8    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   182 =>   591 --  0  ba p (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:35.264 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:5f1b (urgent) last tx 22 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 591 to fe80::212:4b00:1bd1:5f1b<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5f1b, status 2, tx 8, new link metric 419<LF>
-[INFO: RPL       ] sending a DAO seqno 246, tx count 1, lifetime 30, prefix 2409::212:4b00:13a4:a226 to 2409::212:4b00:10d2:3165, parent fe80::212:4b00:1bd1:5f1b<LF>
-[INFO: RPL       ] creating hop-by-hop option<LF>
-[DBG : RPL       ] no SRH found<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5f1b, status 2, tx 8, new link metric 633<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:5c63<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:5f1b -> fe80::212:4b00:1bd1:5c63<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 653 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6   a   (last tx 11 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   269 =>   653 --  0  ba p (no tx)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   a   (last tx 11 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   704 =>   960 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   715 =>   971 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   526 =>   782 --  8    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   633 =>  1042 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:38.401 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:5c63 (urgent) last tx 22 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 653 to fe80::212:4b00:1bd1:5c63<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5c63, status 2, tx 8, new link metric 498<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] sending a DAO seqno 247, tx count 1, lifetime 30, prefix 2409::212:4b00:13a4:a226 to 2409::212:4b00:10d2:3165, parent fe80::212:4b00:1bd1:5c63<LF>
-[INFO: RPL       ] creating hop-by-hop option<LF>
-[DBG : RPL       ] no SRH found<LF>
-
-02-03-2020 14:04:39.430 [RX] - [INFO: RPL       ] packet sent to 0012.4b00.1bd1.5c63, status 2, tx 8, new link metric 704<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:5c63 -> fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 657 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   401 =>   657 --  6  ba p (last tx 11 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   704 =>  1088 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4   a   (last tx 11 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   704 =>   960 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   715 =>   971 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   526 =>   782 --  8    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   633 =>  1042 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:42.015 [RX] - [INFO: RPL       ] probing fe80::212:4b00:1bd1:59a9 (urgent) last tx 11 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 657 to fe80::212:4b00:1bd1:59a9<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.59a9, status 2, tx 8, new link metric 616<LF>
-[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:5c24<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:59a9 -> fe80::212:4b00:1bd1:5c24<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: reachable, MOP 1 OCP 1 rank 670 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   616 =>   872 -- 14    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   704 =>  1088 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   414 =>   670 --  4  ba p (last tx 11 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   704 =>   960 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   715 =>   971 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   526 =>   782 --  8    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   633 =>  1042 -- 16    f  (last tx 0 min ago)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:04:44.537 [RX] - [INFO: RPL       ] sending a DAO seqno 248, tx count 1, lifetime 30, prefix 2409::212:4b00:13a4:a226 to 2409::212:4b00:10d2:3165, parent fe80::212:4b00:1bd1:5c24<LF>
-[INFO: RPL       ] creating hop-by-hop option<LF>
-[DBG : RPL       ] no SRH found<LF>
-[INFO: RPL       ] probing fe80::212:4b00:1bd1:5c24 (urgent) last tx 11 min ago<LF>
-[INFO: RPL       ] sending a unicast-DIO with rank 670 to fe80::212:4b00:1bd1:5c24<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5c24, status 2, tx 8, new link metric 628<LF>
-[INFO: RPL       ] parent switch: fe80::212:4b00:1bd1:5c24 -> (NULL IP addr)<LF>
-[WARN: RPL       ] no parent, scheduling periodic DIS, will leave if no parent is found<LF>
-[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 2466, dioint 20, nbr count 10 (Parent switch)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   616 =>   872 -- 14    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   704 =>  1088 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   628 =>   884 -- 12    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   682 =>   938 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   704 =>   960 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   715 =>   971 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   526 =>   782 --  8    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   633 =>  1042 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-[INFO: RPL       ] packet sent to 0012.4b00.1bd1.5c24, status 2, tx 8, new link metric 821<LF>
-
-02-03-2020 14:04:55.284 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-
-02-03-2020 14:05:01.289 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-
-02-03-2020 14:05:13.750 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-
-02-03-2020 14:05:15.479 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 65535, dioint 20, nbr count 10 (Periodic)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:59a9  256,   616 =>   872 -- 14    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c63  384,   704 =>  1088 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c24  256,   821 =>  1077 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:64c4  256,   682 =>   938 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f7b  256,   704 =>   960 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:67b1  256,   715 =>   971 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c16  256,   526 =>   782 --  8    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c33  256,   682 =>   938 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5f1b  409,   633 =>  1042 -- 16    f  (last tx 0 min ago, better since 0 min)<LF>
-[INFO: RPL       ] nbr: fe80::212:4b00:1bd1:5c5b  256, 65535 => 65535 --  0       (no tx)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:05:22.580 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-
-02-03-2020 14:05:29.996 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-
-02-03-2020 14:05:40.536 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-
-02-03-2020 14:05:53.997 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-
-02-03-2020 14:06:00.052 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-
-02-03-2020 14:06:09.757 [RX] - [WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO<LF>
-[WARN: RPL       ] local repair (DAO max rtx)<LF>
-[INFO: RPL       ] reset MRHOF<LF>
-[INFO: RPL       ] removing all neighbors<LF>
-
-02-03-2020 14:06:15.479 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 65535, dioint 20, nbr count 0 (Periodic)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:07:09.580 [RX] - [INFO: RPL       ] sending a DIS to ff02::1a<LF>
-
-02-03-2020 14:07:12.820 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:25e2, instance_id 0, DAG ID 2409::212:4b00:1bd1:25e2, version 240, dtsn 240, rank 128<LF>
-
-02-03-2020 14:07:15.477 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 65535, dioint 20, nbr count 0 (Periodic)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:07:19.868 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:25e2, instance_id 0, DAG ID 2409::212:4b00:1bd1:25e2, version 240, dtsn 240, rank 128<LF>
-
-02-03-2020 14:07:31.168 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:25e2, instance_id 0, DAG ID 2409::212:4b00:1bd1:25e2, version 240, dtsn 240, rank 128<LF>
-
-02-03-2020 14:07:58.584 [RX] - [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:25e2, instance_id 0, DAG ID 2409::212:4b00:1bd1:25e2, version 240, dtsn 240, rank 128<LF>
-
-02-03-2020 14:08:15.475 [RX] - [INFO: RPL       ] nbr: own state, addr 2409::212:4b00:13a4:a226, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 65535, dioint 20, nbr count 0 (Periodic)<LF>
-[INFO: RPL       ] nbr: end of list<LF>
-
-02-03-2020 14:08:31.239 [RX] - [INFO: RPL       ] sending a DIS to ff02::1a<LF>
+[INFO: RPL       ] initializing
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd2:f082, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 274
+[INFO: RPL       ] adding global IP address 2409::212:4b00:1bd4:2296
+[INFO: RPL       ] reset MRHOF
+[INFO: RPL       ] initialized DAG with instance ID 0, DAG ID 2409::212:4b00:1bd1:2865, prexix 2409::/64, rank 65535
+[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+[INFO: RPL       ] refreshing lifetime
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd2:f082
+[INFO: RPL       ] probing fe80::212:4b00:1bd2:f082 (urgent) last tx 0 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1bd2:f082
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 141
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd2:f082
+[INFO: RPL       ] probing fe80::212:4b00:1bd2:f082 (urgent) last tx 0 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1bd2:f082
+[INFO: RPL   þ…­•Ñ sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 137
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd2:f082
+[INFO: RPL       ] probing fe80::212:4b00:1bd2:f082 (urgent) last tx 0 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1bd2:f082
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 134
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd2:f082
+[INFO: RPL       ] probing fe80::212:4b00:1bd2:f082 (urgent) last tx 0 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1bd2:f082
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, newb¥¹­ metric 133
+[INFO: RPL       ] parent switch: (NULL IP addr) -> fe80::212:4b00:1bd2:f082
+[WARN: RPL       ] found parent: fe80::212:4b00:1bd2:f082, staying in DAG
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: joined, MOP 1 OCP 1 rank 407 max-rank 2455, dioint 0, nbr count 1 (Parent switch)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  274,   133 =>   407 --  4  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd4:6f67, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 555
+[INFO: RPL       ] sending a DAO seqno 241, tx count 1, lifetime 30, preV 2409::212:4b00:1bd4:2296 to 2409::212:4b00:1bd1:2865, parent fe80::212:4b00:1bd2:f082
+[INFO: RPL       ] creating hop-by-hop option
+[DBG : RPL       ] no SRH found
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 132
+[INFO: *1þòeceived a DAO-ACK with seqno 241 (241 241) and status 0 from 2409::212:4b00:1bd1:2865
+[INFO: RPL       ] reset DIO timer (Reachable)
+[INFO: RPL       ] sending a multicast-DIO with rank 406 to ff02::1a
+[INFO: RPL       ] sending a multicast-DIO with rank 406 to ff02::1a
+[INFO: RPL       ] creating hop-by-hop option
+[DBG : RPL       ] no SRH found
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 131
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 405 max-rank 2453, dioint 14, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  274,   131 =>   405 --  6  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  555,   384 =>   939 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] sending a multicast-DIO with rank 405 to ff02::1a
+[INFO: RPL       ] sending a multicast-DIO with rank 405 to ff02::1a
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 130
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 129
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd2:f0a8, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 426
+[INFO: RPL       ] creating hop-by-hop option
+[R=×N1þ…­•Ñ sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INF÷N1þžKÉ: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 402 max-rank 2450, dioint 16, nbr count 3 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  274,   128 =>   402 --  9  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  555,   384 =>   939 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  426,   176 =>   602 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] sending a multicast-DIO with rank 402 to ff02::1a
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd2:f0a8, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 423
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 402 max-rank 2450, dioint 17, nbr count 3 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  274,   128 =>   402 -- 10  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  555,   384 =>   939 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  423,   176 =>   599 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 128
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 2, new link metric 140
+[INFO: RPL       ] creating hop-by-hop option
+[DBG : RPL       ] no SRH found
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 138
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 137
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 136
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 135
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 134
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 133
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPLþ…­•Ñ sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 132
+[INFO: RPL       ] creating hopKå-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 2, new link metric 144
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 2450, dioint 17, nbr count 3 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  274,   144 =>   418 -- 16  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  555,   384 =>   939 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  423,   176 =>   599 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new likj•ÑÉ¥ 142
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 140
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd2:f082, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 263
+[INFO: RPL       ] refreshing lifetime
+[INFO: RPL       ] sending a multicast-DIO with rank 403 to ff02::1a
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 403 max-rank 2450, dioint 18, nbr count 3 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   140 =>   403 -- 16  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  555,   384 =>   939 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  423,   176 =>   599 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] received a multicastKTê
+2É½µ fe80::212:4b00:1bd3:f5e5, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 429
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd3:f5e5, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 429
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 138
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd3:f5e5, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 429
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd3:f5e5, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 429
+[INFO: RPL       ] creating hop-by-hop option
+[DBG : RPL       ] no SRH found
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 137
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 400 max-rank 2448, dioint 18, nbr count 4 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   137 =>   40jjŠ²…™Á (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  555,   384 =>   939 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  423,   176 =>   599 --  0   a   (ë¢á)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  429,   176 =>   605 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 136
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd4:6f67, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 574
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 135
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd3:f5e5, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 429
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 398 max-rank 2446, dioint 18, nbr count 4 (Periodic)
+[INFO: *1þÎKÉ: fe80::212:4b00:1bd2:f082  263,   135 =>   398 -- 16  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  574,   384 =>   958 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  423,   176 =>   599 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  429,   176 =>   605 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] received a multicast-DIO f®«þfe80::212:4b00:1bd4:6f67, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 2206
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd2:f0a8, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 412
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd2:f0b5, instance_iŽ	" ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 605
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 3, new link metric 159
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd2:edf9, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 545
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 155
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 2, new link metric 165
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 428 max-rank 2446, dioint 18, nb.½Õ¹Ñ 6 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   165 =>   428 -- 16  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67 2206,   384 =>  2590 --  0       (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   176 =>   588 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  429,   176 =>   605 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   384 =>   929 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd3:fc8a, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 426
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd4:6f67, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 673
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 161
+[INFO: RPL       ] sending a multicast-DIO with rank 424 to ff02::1a
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 157
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 154
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 151
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd3:f5e5, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 418
+[INFO: RPL       ] creating hop-å-hop option
+[INFO: RPL       ] packet sent to 0^’Îy‚ÎyLìd2.f082, status 0, tx 1, new link metric 148
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sen¢½ 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 146
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 2, new link metric 157
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 420 max-rank 2446, dioint 18, nbr count 7 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   157 =>   420 -- 16  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   176 =>   588 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   176 =>   594 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   384 =>   929 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   365 =>   791 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 154
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 151
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 3, new link metric 174
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 169
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 164
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 427 max-rank 2446, dioint 19, nbr count 7 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   164 =>   427 -- 16  bafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   176 =>   588 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   176 =>   594 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   384 =>   929 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   365 =>   791 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] creaWË hopKå-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 2, tx 8, new link metric 403
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 375
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL      þ…­•Ñ sent to 0012.4b00.1bd2.f082, status 0, tx 1, new link metric 350
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4ì00.1bd2.f082, status 0, tx 1, new link metric 327
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f082, status 2, tx 8, new link metric 550
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd2:f0a8
+[INFO: RPL       ] parent switch: fe80::212:4b00:1bd2:f082 -> fe80::212:4b00:1bd2:f0a8
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 588 max-rank 2446, dioint 19, nbr count 7 (Parent switch)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   550 =>   813 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   176 =>   588 --  0  ba p (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   176 =>   594 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   384 =>   929 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   365 =>   791 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] probing fe80::212:4b00:1bd2:f0a8 (urgent) last tx 10 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 588 to fe80::212:4b00:1bd2:f0a8
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f0a8, status 2, tx 8, new link metric 414
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd3:f5e5
+[INFO: RPL       ] sending a DAO seqnoþ242, tx count 1, lifetime 30, prefix 2409::212:4b00:1bd4:2296 to 2409::212:4b00:1bd1:2865, parent fe80::212:4b00:1bd2:f0a8
+[INFO: RPL       ] creating hop-by-hop option
+[DBG : RPL       ] no SRH found
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.f0a8, status 2, tx 8, new link metric 628
+[INFO: RPL       ] parent switch: fe80::212:4b00:1bd2:f0a8 -> fe80::212:4b00:1bd3:f5e5
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 594 max-rank 2446, dioint 19, nbr count 7 (Parent switch)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   550 =>   813 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   628 =>  1040 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   176 =>   594 --  0  ba p (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   384 =>   929 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   365 =>   791 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 594 max-rank 2446, dioint 19, nbr count 7 (Periodic)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   550 =>   813 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   628 =>  1040 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   176 =>   594 --  0  ba p (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   384 =>   929 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   365 =>   791 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] probing fe80::212:4b00:1bd3:f5e5 (urgent) last tx 11 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 594 to fe80::212:4b00:1bd3:f5e5
+[INFO: RPL       ] packet sent to 0012.4b00.1bd3.f5e5, status 2, tx 8, new link metric 414
+[INFO: RPL       ] sending a DAO seqno 243, tx count1, lifetime 30, prefix 2409::212:4b00:1bd4:2296 to 2409::212:4b00:1bd1:2865, parent fe80::212:4b00:1bd3:f5e5
+[INFO: RPL       ] creating hop-by-hop option
+[DBG : RPL       ] no SRH found
+[INFO: RPL       ] packet sent to 0012.4b00.1bd3.f5e5, stXWÍ 2, tx 8, new link metric 628
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd3:fc8a
+[INFO: RPL       ] parent switch: fe80::212:4b00:1bd3:f5e5 -þfe80::212:4b00:1bd3:fc8a
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 791 max-rank 2446, dioint 19, nbr count 7 (Parent switch)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   550 =>   813 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0   XBr½ tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   628 =>  1040 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   628 =>  1046 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0   a   (no tx)
+[INFO: RPL       ] nbr'>V‚ÒÒ’Š’Ò¢00:1bd2:edf9  545,   384 =>   929 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   365 =>   791 --  0  ba p (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: RPL  þ…­•Ñ sYÑ to 0012.4b00.1bd3.fc8a, status 2, tx 8, new link metric 584
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd2:edf9
+[INFO: RPL       ] parent switch: fe80::212:4b00:1bd3:fc8a -> fe80::212:4b00:1bd2:edf9
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 929 max-rank 2446, dioint 19, nbr count 7 (Parent switch)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   550 =>   813 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   628 =>  1040 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   628 =>  1046 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   384 =>   929 --  0  ba p (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   584 =>  1010 --  8    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] sending a DAO seqno 244, tx count 1, lifetime 30, prefix 2409::212:4b00:1bd4:2296 to 2409::212:4b00:1bd1:2865, parent fe80::212:4b00:1bd2:edf9
+[INFO: RPL       ] creating hop-by-hop option
+[DBG : RPL       ] no SRH found
+[INFO: RPL       ] probing fe80::212:4b00:1bd2:edf9 (urgent) last tx 11 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 929 to fe80::212:4b00:1bd2:edf9
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.edf9, status 2, tx 8, new link metric 601
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd2:f0b5
+[INFO: RPL       ] parent switch: fe80::212:4b00:1bd2*‘™9 -> fe80::212:4b00:1bd2:f0b5
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 989 max-rank 2446, dioint 19, nbr count 7 (Parent switch)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   550 =>   813 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0   a   (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   628 =>  1040 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   628 =>  1046 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   384 =>   989 --  0  ba p (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   601 =>  1146 --  8    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   584 =>  1010 --  8    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] packet sent to 0012.4b00.1bd2.edf9, status 2, tx 8, new link metric 796
+[INFO: RPL       ] sending a DAO seqno 245, tx count 1, lifetime 30, prefix 2409::212:4b00:1bd4:2296 to 2409::212:4b00:1bd1:2865, parent fe80::212:4b00:1bd2:f0b5
+[INFO: RPL       ] creating hop-by-hop option
+[DBG : RPL       ] no SRH found
+[I=÷N1       ] packet sent to 0012.4b00.1bd2.f0b5, status 2, tx 8, new link metric 601
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd4:6f67
+[INFO: RPL       ] parent switch: fe80::212:4b00:1bd2:f0b5 -> fe80::212:4b00:1bd4:6f67
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: reachable, MOP 1 OCP 1 rank 1057 max-rank 2446, dioint 19, nbr count 7 (Parent switch)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   550 =>   813 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   384 =>  1057 --  0  ba p (no tx)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   628 =>  1040 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   628 =>  1046 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   601 =>  1206 --  8    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   796 =>  1341 -- 16    f  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   584 =>  1010jjÂ2  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] probing fe80::212:4b00:1bd4:6f67 (urgent) last tx 11 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 1057 to fe80::212:4b00:1bd4:6f67
+[INFO: RPL       ] packet sent to 0012.4b00.1bd4.6f67, status 2, tx 8, new link metric 601
+[INFO: RPL       ] parent switch: fe80::212:4b00:1bd4:6f67 -> (NULL IP addr)
+[WARN: RPL       ] no parent, scheduling periodic DIS, will leave if no parent is found
+[INFO: RPL       ] nbr: own state, addr 2409::212:4b00:1bd4:2296, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 2446, dioint 19, nbr count 7 (Parent switch)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f082  263,   550 =>   813 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd4:6f67  673,   601 =>  1274 --  8    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0a8  412,   628 =>  1040 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:f5e5  418,   628 =>  1046 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:f0b5  605,   601 =>  1206 --  8    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd2:edf9  545,   796 =>  1341 -- 16    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: fe80::212:4b00:1bd3:fc8a  426,   584 =>  1010 --  8    f  (last tx 0 min ago, better since 0 min)
+[INFO: RPL       ] nbr: end of list
+[WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO
+[WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO
+[INFO: RPL    þcreating hop-by-hop option
+[INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1bd1:2865, instance_id 0, DAG ID 2409::212:4b00:1bd1:2865, version 240, dtsn 240, rank 128
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1bd1:2865
